@@ -13,3 +13,18 @@ public class out_4 {
 		}
 	}
 }
+
+
+
+
+//OUTPUT OF THIS PROGRAM
+
+     45
+     44
+
+     42
+     41
+     40
+     39
+
+	     
