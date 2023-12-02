@@ -12,10 +12,11 @@ public class armstrong_2 {
 		int originalNumber;
 		int remainder;
 		int result = 0;
+		int numLength = String.valueOf(num).length(); 
 		originalNumber = num;
 		while (originalNumber != 0) {
 			remainder = originalNumber % 10;
-			result += Math.pow(remainder, 3);
+			result += Math.pow(remainder, numLength);
 			originalNumber /= 10;
 		}
 		if (result == num)
